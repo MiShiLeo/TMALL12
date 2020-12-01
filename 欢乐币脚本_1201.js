@@ -5,7 +5,7 @@
 
 var i = 0;
 var j = 0;
-var taskList = ['去浏览','去逛逛','去搜索','领取奖励','去完成'];
+var taskList = ['去浏览','去逛逛','去搜索','去完成'];
 var height = device.height;
 var width = device.width;
 setScreenMetrics(width, height);
