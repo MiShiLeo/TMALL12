@@ -67,7 +67,7 @@ sleep(1500 * speed);
 
 taskList.forEach(task => {
     while (textContains(task).exists()) {
-        log("老曹温馨提示开始做第" + (i+1) + "次任务！");
+        log("当前开始做第" + (i+1) + "次任务！");
         var a = text(task).findOnce(j);
 		log("task = "+task);
         switch (task) {
@@ -112,7 +112,7 @@ taskList.forEach(task => {
                 log('奖励领取成功');
                 break;
             default:
-                log("老曹觉得没有任务可以干了，要不你再看看？")
+                log("俺觉得没有任务可以干了，要不你再看看？")
                 break;
         }
         sleep(2000 * speed);
